@@ -1,0 +1,234 @@
+@media (max-width: 1250px) {
+    .two_h{
+        text-align: center;
+    }
+
+    .two_item{
+        width: 55%;
+    }
+
+    .two_all{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1060px){
+    .opros_item h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .two_item{
+        width: 75%;
+    }
+
+
+
+    .content{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+
+    .content_text{
+        width: 70%;
+        margin-left: 0;
+    }
+
+
+    .content_text p{
+        max-width: 100%;
+    }
+}
+
+
+
+
+@media (max-width: 950px){
+    .opros_btns{
+        justify-content: center;
+    }
+
+    .opros_btns button{
+        margin-left: 10px;
+    }
+    .opros_footer{
+        bottom: -200px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .con_history{
+        padding: 0 40px;
+    }
+    .nav_btn{
+        display: none;
+    }
+
+    .lang{
+        display: none;
+    }
+
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+    .block_mobile{
+        display: flex;
+    }
+}
+
+
+@media (max-width: 855px){
+    iframe{
+        width: 90%;
+    }
+
+    .block_four{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .four_item{
+        width: 90%;
+    }
+    .opros_item_contant{
+        width: 100%;
+    }
+}
+
+@media (max-width: 780px){
+    .item_stalin{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .item_flag{
+       justify-content: center;
+    }
+}
+
+
+@media (max-width: 650px){
+    .btn_aslider{
+        display: none;
+    }
+
+    .menu{
+        bottom: 10px;
+    }
+
+
+    .h_item_right{
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX();
+        flex-direction: row;
+    }
+
+
+    .item_start_icons img{
+        width: 25px;
+    }
+
+    .header_item h1{
+        font-size: 28px;
+    }
+
+    .h_text{
+        font-size: 12px;
+    }
+
+    .h_item_start p{
+        font-size: 18px;
+    }
+
+    .h_btn{
+        font-size: 14px;
+    }
+
+    .btn_play{
+        margin-right: 10px;
+    }
+}
+
+
+@media (max-width: 600px){
+    .footer_list{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .footer_links{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+    .footer_links_margin{
+        margin-right: 0;
+    }
+    .opros_footer {
+        bottom: -90%;
+    }
+    .history_content h1{
+        font-size: 28px;
+    }
+    .history_content h2{
+        font-size: 28px;
+    }
+    .history_content p{
+        font-size: 12px;
+    }
+    .history_content li{
+        font-size: 12px;
+    }
+    .history_content span{
+        font-size: 12px;
+    }
+    .btn_stonks {
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+
+
+@media (max-width: 470px){
+    .content img{
+        width: 60%;
+    }
+
+    .content_text h2{
+        font-size: 24px;
+    }
+    .content_text p{
+        font-size: 11px;
+    }
+
+    .content_text a{
+        font-size: 14px;
+    }
+
+    .slider{
+        height: 70vh;
+    }
+    .item_stalin_two{
+        margin-left: 0;
+    }
+    .two_item{
+        width: 100%;
+    }
+    iframe{
+        height: 300px;
+    }
+    .block_mobile a{
+        font-size: 18px;
+    }
+    .mobile_lang a{
+        font-size: 18px;
+    }
+}
+
