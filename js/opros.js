@@ -123,7 +123,7 @@ let btn_inner = () => {
 btn_inner()
 
 
-btns.forEach(item => {  //доделать
+btns.forEach(item => {  
     item.addEventListener('click', () => {
         if(lang === "ru"){
             if (item.innerHTML == otvet[step]) {

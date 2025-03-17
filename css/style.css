@@ -10,7 +10,7 @@ header{
     width: 100%;
     height: 80px;
     z-index: 999;
-     background-color: #0b121a7f; 
+     background-color: #000000bf; 
 }
 
 .container {
@@ -460,13 +460,7 @@ nav h2 {
     max-height: 999em;
   }
   
-  .read-more-state ~ .read-more-trigger:before {
-    content: 'Больше';
-  }
-  
-  .read-more-state:checked ~ .read-more-trigger:before {
-    content: 'Меньше';
-  }
+
   
   .read-more-trigger {
     cursor: pointer;
@@ -800,7 +794,7 @@ footer{
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #0b121a;
+    background-color: #191919;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -833,3 +827,4 @@ footer{
 .nav_dark h2{
     color: #fff;
 }
+

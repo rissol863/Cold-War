@@ -230,5 +230,8 @@
     .mobile_lang a{
         font-size: 18px;
     }
+    .opros_item_content img{
+        width: 120px;
+    }
 }
 
