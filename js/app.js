@@ -9,12 +9,12 @@ let play = false
 btn_play.addEventListener("click" , () => {
     if(play === false){
         back_video.pause()
-        play_img.src = "img/pause.png"
+        play_img.src = "img/play.png"
         play = true
     }
     else{
         back_video.play()
-        play_img.src = "img/play.png"
+        play_img.src = "img/pause.png"
         play = false
     }
 })
